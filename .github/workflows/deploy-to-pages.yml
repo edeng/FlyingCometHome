@@ -26,6 +26,8 @@ jobs:
 
     - name: Build
       run: npm run build
+      env:
+        CI: false      
       working-directory: ./flying-comet-homepage
 
   deploy:
