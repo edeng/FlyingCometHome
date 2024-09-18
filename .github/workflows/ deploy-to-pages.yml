@@ -32,6 +32,11 @@ jobs:
         CI: false
       run: npm run build
 
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: ./out
+
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v1  # Official GitHub action for Pages deployment
       with:
