@@ -1,0 +1,2 @@
+export const output = 'export';
+  
