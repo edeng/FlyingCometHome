@@ -16,14 +16,19 @@ jobs:
       with:
         node-version: '18.x'
 
+    - name: Change to project directory
+      run: cd flying-comet-homepage
+
     - name: Install dependencies
+      working-directory: ./flying-comet-homepage
       run: npm ci
 
     - name: Build
+      working-directory: ./flying-comet-homepage
       run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+        publish_dir: ./flying-comet-homepage/build
