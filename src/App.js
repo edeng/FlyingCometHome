@@ -35,29 +35,29 @@ const theme = createTheme({
   typography: {
     fontFamily: '"Exo 2", "Roboto", "Helvetica", "Arial", sans-serif',
     h1: {
-      fontFamily: '"Orbitron", sans-serif',
+      fontFamily: '"Rubik", sans-serif',
       fontWeight: 700,
       letterSpacing: '0.02em',
     },
     h2: {
-      fontFamily: '"Orbitron", sans-serif',
+      fontFamily: '"Rubik", sans-serif',
       fontWeight: 600,
       letterSpacing: '0.01em',
     },
     h3: {
-      fontFamily: '"Orbitron", sans-serif',
+      fontFamily: '"Rubik", sans-serif',
       fontWeight: 500,
     },
     h4: {
-      fontFamily: '"Orbitron", sans-serif',
+      fontFamily: '"Rubik", sans-serif',
       fontWeight: 500,
     },
     h5: {
-      fontFamily: '"Orbitron", sans-serif',
+      fontFamily: '"Rubik", sans-serif',
       fontWeight: 400,
     },
     h6: {
-      fontFamily: '"Orbitron", sans-serif',
+      fontFamily: '"Rubik", sans-serif',
       fontWeight: 400,
     },
     subtitle1: {
